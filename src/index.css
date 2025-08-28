@@ -1,0 +1,34 @@
+@import "text/tailwind.css";
+
+:root {
+      --bg-light: #f0f2f5;
+      --text-light: #111418;
+      --border-light: #e5e7eb;
+      --card-light: #ffffff;
+      --bg-dark: #111418;
+      --text-dark: #ffffff;
+      --border-dark: #283039;
+      --card-dark: #1a1f24;
+      --primary: #0d80f2;
+      --primary-hover: #0a68c4;
+    }
+    .theme-light {
+      --bg-color: var(--bg-light);
+      --text-color: var(--text-light);
+      --border-color: var(--border-light);
+      --card-color: var(--card-light);
+      --input-bg: #e8eaed;
+      --input-text: #3c4043;
+      --input-placeholder: #5f6368;
+      --muted-text: #5f6368;
+    }
+    .theme-dark {
+      --bg-color: var(--bg-dark);
+      --text-color: var(--text-dark);
+      --border-color: var(--border-dark);
+      --card-color: var(--card-dark);
+      --input-bg: #1b2127;
+      --input-text: #e8eaed;
+      --input-placeholder: #9cabba;
+      --muted-text: #9cabba;
+    }
